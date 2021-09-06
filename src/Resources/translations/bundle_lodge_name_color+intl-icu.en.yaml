@@ -1,0 +1,43 @@
+title: "Hunter's Lodge"
+
+section:
+    default:
+        note: |
+            Preview your name before saving it.
+            Remember close all color codes.
+        current: 'Your name currently is this'
+        look: '`7which looks like "{reg_name}"`0`n`n'
+        subtitle: '`3`bName Color Change´b`0`n`n'
+        say: '`7J. C. Petersen smiles at you,'
+        re_buy:
+            yes: '"`&Because you have previously spent points on a name color change, subsequent color changes only cost you {cost,plural, =1{1 point} other{# points}}.`0"'
+            no: '"`&Because this will be your first name color change, it will cost you {cost,plural, =1{1 point} other{# points}}. Future name changes will only cost {extra_points,plural, =1{1 point} other{# points}}.`0"'
+        buy: '`n`nHe looks you up and down slowly, "`&Your colorized name *must* contain the same characters as your current name in the same order. This means that it has to be the same display name, though you may add in or remove colors, or change the capitalization of letters.`0"`0`n`n'
+    preview.paragraph: >
+        `7Your name will look this this: {new_name}`n`n
+        Is this what you wish?`0
+    changed.paragraph: '`7Congratulations, your name is now`0 {name}`7!`0'
+
+no_donator_points: >
+    `n`nHe consults his book silently for a moment and then turns to you.
+    "`&I'm terribly sorry, but you only have {points_available,plural, =1{1 point} other{# points}} available and a name color change would cost you {cost,plural, =1{1 point} other{# points}}.`0"`0
+
+points.description: 'A colored name costs {initial,number} points for the first change and {extra,number} points for subsequent changes.'
+
+navigation:
+    category:
+        confirm: 'Confirm Name Change'
+    nav:
+        change: 'Colorize Name ({cost,plural, =1{1 point} other{# points}})'
+        return: 'L?Return to the Lodge'
+        yes: 'Yes'
+        no: 'No'
+
+news.changed: '`^{from} has become known as {new}.`0'
+
+form:
+    name_color:
+        new_name: 'How would you like your name to look?'
+        button:
+            preview: Preview name
+            change: Change name

@@ -1,0 +1,6 @@
+lodge_name_color:
+    no_bold: 'Your title cannot contain the bold code'
+    no_italic: 'Your title cannot contain the italics code'
+    no_equal: 'Your new name must contain only the same characters as your current name; you can add or remove colors, and you can change the capitalization, but you may not add or remove anything else. You chose {{ name }}.'
+    long: 'Your new name is too long. Including the color markups, you are not allowed to exceed {{ limit }} characters in length.'
+    colors_count: "You have used {{ value }} colors in your name and that's a lot of colors. You may not exceed {{ limit }} colors total."

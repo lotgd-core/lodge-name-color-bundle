@@ -1,0 +1,71 @@
+{
+    "name": "lotgd-core/lodge-name-color-bundle",
+    "version": "0.1.0",
+    "type": "lotgd-bundle",
+    "description": "Lodge Name Colorize for LoTGD IDMarinas Edition.",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Iván Diaz Marinas (IDMarinas)",
+            "email": "35842929+idmarinas@users.noreply.github.com",
+            "homepage": "https://github.com/lotgd-core/lodge-name-color-bundle",
+            "role": "Developer, Maintainer"
+        },
+        {
+            "name": "Eric Stevens",
+            "role": "Original Idea"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/lotgd-core/lodge-name-color-bundle/issues"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.3",
+        "idmarinas/lotgd-contracts": "^0.2.0",
+        "symfony/config": "^4.4",
+        "symfony/dependency-injection": "^4.4",
+        "symfony/event-dispatcher": "^4.4",
+        "symfony/http-kernel": "^4.4"
+    },
+    "require-dev": {
+        "idmarinas/lotgd": "^6.0",
+        "matthiasnoback/symfony-config-test": "^4.2",
+        "matthiasnoback/symfony-dependency-injection-test": "^4.2",
+        "nyholm/symfony-bundle-test": "^1.7",
+        "phpunit/phpunit": "^9.5",
+        "symfony/phpunit-bridge": "^5.3",
+        "symfony/test-pack": "^1.0"
+    },
+    "conflict": {
+        "idmarinas/lotgd": "<6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lotgd\\Bundle\\LodgeNameColorBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lotgd\\Bundle\\LodgeNameColorBundle\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --process-isolation"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": {
+            "*": "dist"
+        },
+        "process-timeout": 5000,
+        "sort-packages": true
+    },
+    "funding": [
+        {
+            "type": "paypal",
+            "url": "https://www.paypal.me/idmarinas"
+        }
+    ]
+}
