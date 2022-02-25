@@ -1,6 +1,5 @@
 {
     "name": "lotgd-core/lodge-name-color-bundle",
-    "version": "0.1.0",
     "type": "lotgd-bundle",
     "description": "Lodge Name Colorize for LoTGD IDMarinas Edition.",
     "license": "BSD-3-Clause",
